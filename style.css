@@ -6,75 +6,6 @@
   font-weight: normal;
   font-display: block; }
 
-i {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'tomorrow' !important;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-transform: none;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-.ic-bell:before {
-  content: '\e900'; }
-
-.ic-bookmark:before {
-  content: '\e901'; }
-
-.ic-bookmark-filled:before {
-  content: '\e902'; }
-
-.ic-caret:before {
-  content: '\e903'; }
-
-.ic-cart:before {
-  content: '\e904'; }
-
-.ic-check:before {
-  content: '\e905'; }
-
-.ic-chevron:before {
-  content: '\e906'; }
-
-.ic-close:before {
-  content: '\e907'; }
-
-.ic-community:before {
-  content: '\e908'; }
-
-.ic-expert:before {
-  content: '\e909'; }
-
-.ic-favicon .path1:before {
-  color: #3da5f5;
-  content: '\e90a'; }
-
-.ic-favicon .path2:before {
-  margin-left: -0.9921875em;
-  color: white;
-  content: '\e90b'; }
-
-.ic-lock:before {
-  content: '\e90c'; }
-
-.ic-menu:before {
-  content: '\e90d'; }
-
-.ic-new:before {
-  content: '\e90e'; }
-
-.ic-search:before {
-  content: '\e90f'; }
-
-.ic-star:before {
-  content: '\e910'; }
-
-.ic-store:before {
-  content: '\e911'; }
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -760,6 +691,73 @@ ol {
       .pagination .page-item a:hover,
       .pagination .page-item button:hover {
         color: #3da5f5; }
+
+i {
+  font-family: 'tomorrow' !important;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  font-style: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.ic-bell:before {
+  content: '\e900'; }
+
+.ic-bookmark:before {
+  content: '\e901'; }
+
+.ic-bookmark-filled:before {
+  content: '\e902'; }
+
+.ic-caret:before {
+  content: '\e903'; }
+
+.ic-cart:before {
+  content: '\e904'; }
+
+.ic-check:before {
+  content: '\e905'; }
+
+.ic-chevron:before {
+  content: '\e906'; }
+
+.ic-close:before {
+  content: '\e907'; }
+
+.ic-community:before {
+  content: '\e908'; }
+
+.ic-expert:before {
+  content: '\e909'; }
+
+.ic-favicon .path1:before {
+  color: #3da5f5;
+  content: '\e90a'; }
+
+.ic-favicon .path2:before {
+  margin-left: -0.9921875em;
+  color: white;
+  content: '\e90b'; }
+
+.ic-lock:before {
+  content: '\e90c'; }
+
+.ic-menu:before {
+  content: '\e90d'; }
+
+.ic-new:before {
+  content: '\e90e'; }
+
+.ic-search:before {
+  content: '\e90f'; }
+
+.ic-star:before {
+  content: '\e910'; }
+
+.ic-store:before {
+  content: '\e911'; }
 
 /*
    * Mobile ( <768px) ---------------------
