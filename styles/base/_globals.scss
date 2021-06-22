@@ -12,7 +12,7 @@
 }
 
 .sm-only {
-  @media screen and (min-witdh: $md-breakpoint) {
+  @media screen and (min-width: $md-breakpoint) {
     display: none !important;
   }
 }
@@ -29,7 +29,7 @@
 
 .lg-only {
   // 1199까지만 none
-  @media screen and (max-width: $md-breakpoint - 1) {
+  @media screen and (max-width: $lg-breakpoint - 1) {
     display: none !important;
   }
 }
@@ -41,13 +41,13 @@
 }
 
 .md-hidden {
-  @media screen and (min-width: $md-breakpoint - 1) and (max-width: $lg-breakpoint - 1) {
+  @media screen and (min-width: $md-breakpoint) and(max-width: $lg-breakpoint - 1) {
     display: none !important;
   }
 }
 
 .lg-hidden {
-  @media screen and (min-width: $md-breakpoint) {
+  @media screen and (min-width: $lg-breakpoint) {
     display: none !important;
   }
 }

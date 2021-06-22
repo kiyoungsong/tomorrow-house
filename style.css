@@ -367,7 +367,7 @@ ol {
   white-space: nowrap !important;
   border: 0 !important; }
 
-@media screen and (min-witdh: 768px) {
+@media screen and (min-width: 768px) {
   .sm-only {
     display: none !important; } }
 
@@ -379,7 +379,7 @@ ol {
   .md-only {
     display: none !important; } }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .lg-only {
     display: none !important; } }
 
@@ -387,11 +387,11 @@ ol {
   .sm-hidden {
     display: none !important; } }
 
-@media screen and (min-width: 767px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .md-hidden {
     display: none !important; } }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .lg-hidden {
     display: none !important; } }
 
@@ -527,7 +527,7 @@ ol {
   align-items: center;
   justify-content: center;
   padding: 0 8px;
-  font-weight: 700px;
+  font-weight: 700;
   border-radius: 4px; }
   .btn-primary:disabled, .btn-secondary:disabled, .btn-outlined:disabled, .btn-ghost:disabled {
     cursor: not-allowed;
@@ -762,6 +762,22 @@ i {
 .ic-store:before {
   content: '\e911'; }
 
+.gnb-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+
+.gnb-nav-item {
+  margin-right: 24px; }
+  .gnb-nav-item:last-child {
+    margin-right: 0; }
+  .gnb-nav-item a {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #3f4150;
+    font-weight: 700; }
+
 /*
    * Mobile ( <768px) ---------------------
    * fixture ------------------------------ sm
@@ -901,5 +917,34 @@ i {
       display: block;
       width: auto;
       height: 20px; }
+  @media screen and (min-width: 768px) {
+    .gnb-left {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; }
+    .gnb-right {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; }
+      .gnb-right .button-group {
+        margin-right: 24px; }
+      .gnb-right .gnb-icon-button {
+        margin-right: 8px; }
+    .gnb-wrapper {
+      height: 80px; }
+    .gnb .logo {
+      position: static;
+      margin-right: 32px;
+      transform: none; }
+      .gnb .logo img {
+        height: 24px; }
+    .gnb .btn-primary {
+      width: 88px; }
+      .gnb .btn-primary i {
+        margin-left: 4px; } }
+  @media screen and (min-width: 768px) {
+    .gnb-right .input-group {
+      width: 264px;
+      margin-right: 24px; } }
 
 /*# sourceMappingURL=style.css.map */
