@@ -50,7 +50,6 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
 
   .row {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
   }
 
@@ -68,6 +67,10 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
   @include responsive(T) {
     max-width: $md-max-container;
     padding: 0 $md-margin;
+
+    .test {
+      padding: 0 $md-margin;
+    }
 
     @for $i from 1 through $md-columns {
       .col-md-#{$i} {

@@ -778,6 +778,17 @@ i {
     color: #3f4150;
     font-weight: 700; }
 
+.gnb-icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  color: #8c8d96; }
+  .gnb-icon-button.is-menu {
+    color: #3da5f5; }
+
 /*
    * Mobile ( <768px) ---------------------
    * fixture ------------------------------ sm
@@ -813,7 +824,6 @@ i {
   margin: 0 auto; }
   .container .row {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap; }
   .container [class^='col-'] {
     padding: 0 10px; }
@@ -829,6 +839,8 @@ i {
     .container {
       max-width: 1020px;
       padding: 0 30px; }
+      .container .test {
+        padding: 0 30px; }
       .container .col-md-1 {
         width: 8.33333%; }
       .container .col-md-2 {
@@ -853,7 +865,7 @@ i {
         width: 91.66667%; }
       .container .col-md-12 {
         width: 100%; } }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     .container {
       max-width: 1140px;
       padding: 0; }
@@ -894,18 +906,8 @@ i {
     display: flex;
     align-items: center;
     justify-content: flex-end; }
-  .gnb-right .gnb-search-button {
+  .gnb-right .gnb-icon-button.is-search {
     margin-right: 4px; }
-  .gnb-icon-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    font-size: 24px;
-    color: #8c8d96; }
-  .gnb-menu-button {
-    color: #3da5f5; }
   .gnb .logo {
     position: absolute;
     top: 50%;
@@ -942,7 +944,7 @@ i {
       width: 88px; }
       .gnb .btn-primary i {
         margin-left: 4px; } }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     .gnb-right .input-group {
       width: 264px;
       margin-right: 24px; } }
